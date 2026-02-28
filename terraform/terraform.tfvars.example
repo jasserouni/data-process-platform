@@ -1,0 +1,18 @@
+# Copy this file to terraform.tfvars and fill in your values
+# Do NOT commit terraform.tfvars to version control
+
+project_id  = "your-gcp-project-id"
+region      = "europe-west3" # Frankfurt (EU / GDPR compliant)
+environment = "dev"
+
+# Data retention (days)
+raw_data_retention_days       = 90
+processed_data_retention_days = 365
+
+# Alerting
+alert_email = "your-email@example.com"
+
+# Optional: additional labels
+labels = {
+  team = "data-engineering"
+}
