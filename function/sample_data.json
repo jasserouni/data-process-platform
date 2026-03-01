@@ -1,0 +1,64 @@
+[
+  {
+    "order_id": "ORD-2024-001",
+    "timestamp": "2024-12-04T10:30:00Z",
+    "customer": {
+      "email": "customer@example.com",
+      "name": "Jane Doe",
+      "address": "123 Main St, Berlin, Germany"
+    },
+    "items": [
+      {
+        "sku": "PROD-001",
+        "quantity": 2,
+        "price": 29.99
+      }
+    ],
+    "total": 59.98,
+    "payment_last4": "4242",
+    "currency": "EUR"
+  },
+  {
+    "order_id": "ORD-2024-002",
+    "timestamp": "2024-12-04T11:15:00Z",
+    "customer": {
+      "email": "max.mustermann@example.de",
+      "name": "Max Mustermann",
+      "address": "Friedrichstraße 42, Munich, Germany"
+    },
+    "items": [
+      {
+        "sku": "PROD-003",
+        "quantity": 1,
+        "price": 49.99
+      },
+      {
+        "sku": "PROD-007",
+        "quantity": 3,
+        "price": 12.50
+      }
+    ],
+    "total": 87.49,
+    "payment_last4": "1234",
+    "currency": "EUR"
+  },
+  {
+    "order_id": "ORD-2024-003",
+    "timestamp": "2024-12-05T08:00:00Z",
+    "customer": {
+      "email": "sophie.dupont@example.fr",
+      "name": "Sophie Dupont",
+      "address": "15 Rue de Rivoli, Paris, France"
+    },
+    "items": [
+      {
+        "sku": "PROD-010",
+        "quantity": 1,
+        "price": 89.00
+      }
+    ],
+    "total": 89.00,
+    "payment_last4": "5678",
+    "currency": "EUR"
+  }
+]
